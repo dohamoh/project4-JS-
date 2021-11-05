@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project4</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./project4.css">
+</head>
+<body>
+    <header>
+        <div class=" container header1">
+            <h3 class=" pb-4 mt-5 fs-2 fw-bold">Bookmarker</h3>
+        </div>
+    </header>
+    <div class="container main0 pb-lg-4">
+        <div class="main text-center p-4 mt-lg-3">
+            <div class="main2 d-flex flex-column">
+                <h2 class=" pb-lg-4 mt-lg-3">Bookmark your favorite sites</h2>
+                <p class=" fw-bold text-black">Site Name</p>
+                <input class=" mb-2 mx-auto w-75  ps-2 py-2" type="text" id="siteName" placeholder="Bookmark Name">
+                <p class="alert alert-error m-auto d-none w-75 fs-4 fw-bold mb-3 " id="nameError">Name is required</p>
+                <p class=" fw-bold text-black mt-3">Site URL</p>
+                <input class=" mb-2 mx-auto  w-75  ps-2 py-2" type="text" id="siteUrl" placeholder="website URL">
+                <p class="alert alert-error m-auto d-none w-75 fs-4 fw-bold " id="urlError">Url Field is required</p>
+                <div class=" m-auto">
+                    <button class=" btn btn-primary mt-lg-3 mb-3" id="mainBtn" onclick="addVali()">Submit</button>
+                </div>
+            </div>
+        </div>
+       <div id="bookmarkList" class=" flex-column">
+        <!-- <div class="main3 d-flex  mt-lg-4 bg-gradient p-5" id="main3">
+            <h2 class=" me-5 w-25">hello there</h2>
+            <a id="visitBtn" class=" btn btn-primary ms-5 me-3 py-2 px-3" href="" target="_blank">Visit</a>
+            <button id="deleteBtn" class=" btn btn-danger px-3">Delete</button>
+        </div> -->
+       </div>
+    </div>
+    <footer>
+        <div class=" container">
+            <p class=" fw-bold mt-lg-3 text-secondary ps-2 mb-5">© 2021 Bookmarker Inc.</p>
+        </div>
+    </footer>
+
+
+
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="./project4.js"></script> 
+</body>
+</html>

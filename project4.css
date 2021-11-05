@@ -1,0 +1,32 @@
+
+header h3{
+    color: #aaa;
+}
+.header1{
+    border-bottom: 1px solid #999;
+}
+.main0{
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+.main {
+    background-color: #eee;
+}
+.main2 input{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+}
+.main2 button{
+    cursor: pointer;
+}
+.main3{
+    background-color: #eee;
+    /* background-image: linear-gradient(#EEE,#FFF);  */
+}
+
+.alert-error{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    padding: 0px;
+    
+}
